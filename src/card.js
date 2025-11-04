@@ -11,6 +11,7 @@ function Card({ currentUser, logout }) {
     color: "#000000",
     radius: "0", // Changed default to number-like string
   });
+  
   let [data, setData] = useState({
     fullname: "John Doe",
     role: "Software developer lead",
